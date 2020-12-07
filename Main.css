@@ -1,0 +1,30 @@
+header{
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 30px;
+}
+main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 10px 10px 30px;
+}
+.half{
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(192, 192, 192);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+a{
+    text-decoration: none;
+}
